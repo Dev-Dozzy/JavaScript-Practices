@@ -91,11 +91,10 @@ console.log(preshAge === ucheAge);
 var paulWeight = 70;
 var paulHeight = 1.70;
 var paulBmi = (paulWeight / (paulHeight**2))
-console.log(paulBmi)
+console.log("Paul's BMI is : " +paulBmi)
 
 var peterWeight = 80;
 var peterHeight = 1.65;
 var peterBmi = (peterWeight / (peterHeight**2))
-console.log(peterBmi)
-
+console.log("Peter's BMI is : "+peterBmi)
 console.log(paulBmi >= peterBmi)
