@@ -49,15 +49,21 @@
 // person.introduce();
 var firstName = 'Chiedozie';
 console.log(firstName)
+console.log(typeof firstName)
 
 var lastName = 'Chukwuma';
 console.log(lastName)
+console.log(typeof lastName)
 
 var age = 120;
 console.log(age)
+console.log(typeof age)
 
 var licenseStatus = true;
 console.log(licenseStatus)
+console.log(typeof licenseStatus)
 
 var dreamJob;
 console.log(dreamJob)
+console.log(typeof dreamJob)
+
