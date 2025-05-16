@@ -67,3 +67,23 @@ var dreamJob;
 console.log(dreamJob)
 console.log(typeof dreamJob)
 
+var johnAge = 30;
+var markAge = 35;
+var averageAge = ((johnAge + markAge)/2)
+console.log("The avearge age is: " +averageAge)
+
+var chinweAge = 36;
+var preshAge = 34;
+var amakaAge = 31;
+var kennyAge = 29;
+var ucheAge = 27;
+
+var averageAge = ((chinweAge+preshAge+amakaAge+kennyAge+ucheAge) / 2)
+console.log(averageAge)
+
+console.log(chinweAge > ucheAge)
+console.log(chinweAge < amakaAge)
+console.log(kennyAge >= preshAge)
+console.log(chinweAge !== ucheAge)
+console.log(chinweAge <= ucheAge)
+console.log(preshAge === ucheAge);
